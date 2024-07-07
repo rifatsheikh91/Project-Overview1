@@ -102,8 +102,21 @@ nav{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 90px;
+}
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
 
 
@@ -120,6 +133,7 @@ nav{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .item-description{
     font-weight:bold ;
@@ -127,4 +141,8 @@ main{
 .about-items{
     display: flex;
     justify-content: space-between;
+}
+.main section{
+    margin-top: 130px;
+    margin-bottom: 300px;
 }
