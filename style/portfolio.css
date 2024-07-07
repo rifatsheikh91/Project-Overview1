@@ -70,7 +70,7 @@ nav{
     font-size: 18px;
   }
   .banner-pic{
-    weight: 584px;
+    width: 584px;
     
   }
 
@@ -90,5 +90,41 @@ nav{
 
 
   }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
 
+/* about section */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+
+.about .content-destriptino{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #757575;
+}
   
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+  /* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.item-description{
+    font-weight:bold ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
